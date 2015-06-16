@@ -20,7 +20,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int intFinal = 2;
 
 
-	cout << "----------La lista de Elementos Int, insertar al final--------------------" << "\n" << endl; 
+	cout << "----------La lista de Elementos Int, insertar al final--------------------" << "\n" << endl;
 
 	for (int i = 0; i < 3; ++i) {
 		elemInt.insertarAlFinal(new ElementoInt(i));
@@ -56,25 +56,25 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << "----------La lista de Elementos IntInt, insertar al final--------------------" << "\n" << endl;
 
 	for (int i = 0; i < 3; ++i) {
-		elemIntInt.insertarAlFinal(new ElementoIntInt(i,i+1));
+		elemIntInt.insertarAlFinal(new ElementoIntInt(i, i + 1));
 		elemIntInt.imprimir();
 	}
 
 	cout << "---La lista de Elementos IntInt, insertar al frente--- " << "\n" << endl;
 
 	for (int i = 3; i < 5; ++i) {
-		elemIntInt.insertarAlFrente(new ElementoIntInt(i,i+2));
+		elemIntInt.insertarAlFrente(new ElementoIntInt(i, i + 2));
 		elemIntInt.imprimir();
 	}
 
 	cout << "---La lista de Elementos IntInt, eliminar del frente--- " << "\n" << endl;
 
-	elemIntInt.eliminarDelFrente(new ElementoIntInt(12,2));
+	elemIntInt.eliminarDelFrente(new ElementoIntInt(12, 2));
 	elemIntInt.imprimir();
 
 	cout << "---La lista de Elementos IntInt, eliminar del final--- " << "\n" << endl;
 
-	elemIntInt.eliminarDelFinal(new ElementoIntInt(3,2));
+	elemIntInt.eliminarDelFinal(new ElementoIntInt(3, 2));
 	elemIntInt.imprimir();
 
 	cout << "---La lista de Elementos IntInt, eliminar del medio--- " << "\n" << endl;
@@ -83,7 +83,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	elemIntInt.imprimir();
 
 	cout << "---La lista de Elementos IntInt, insertar al medio--- " << "\n" << endl;
-	elemIntInt.insertarAlMedio(new ElementoIntInt(5,6), 1);
+	elemIntInt.insertarAlMedio(new ElementoIntInt(5, 6), 1);
 	elemIntInt.imprimir();
 
 
@@ -149,7 +149,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	cout << "---La lista de Elementos Persona, eliminar del final--- " << "\n" << endl;
 
-	elemPer.eliminarDelFinal(new ElementoPersona(new Persona(4,"Daniel")));
+	elemPer.eliminarDelFinal(new ElementoPersona(new Persona(4, "Daniel")));
 	elemDou.imprimir();
 
 	cout << "---La lista de Elementos Persona, eliminar del medio--- " << "\n" << endl;
@@ -158,7 +158,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	elemPer.imprimir();
 
 	cout << "---La lista de Elementos Persona, insertar al medio--- " << "\n" << endl;
-	elemPer.insertarAlMedio(new ElementoPersona(new Persona(6,"Mario")),1);
+	elemPer.insertarAlMedio(new ElementoPersona(new Persona(6, "Mario")), 1);
 	elemPer.imprimir();
 
 
